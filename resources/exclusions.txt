@@ -1,0 +1,8 @@
+com/ibm/wala/.*
+java/util/.*
+sun/.*
+javax/.*
+java/security
+java/io
+
+

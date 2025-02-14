@@ -1,0 +1,54 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
+    id 'application'
+
+}
+application {
+
+    mainClass = 'Main' // Update this to your main class
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libss'
+    }
+  
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+
+    implementation files("${rootDir}/libss/Qilin-0.9.5-SNAPSHOT.jar")
+    implementation "org.soot-oss:soot:4.5.0"
+    implementation 'org.json:json:20231013'
+
+    //implementation "qilin:pta:1.0-SNAPSHOT"
+    //implementation "qilin:core:1.0-SNAPSHOT"
+    //implementation "qilin:util:1.0-SNAPSHOT"
+    //implementation files("${rootDir}/libs/soot-4.2.1-jar-with-dependencies.jar")
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'Main'
+    }
+
+}
+
+test {
+    useJUnitPlatform()
+}
+
+shadowJar {
+    zip64 = true
+    archiveBaseName.set('QilinAnalysis-fat')
+    archiveClassifier.set('')
+    archiveVersion.set('')
+}

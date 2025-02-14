@@ -1,0 +1,43 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="QilinAnalysis.main:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/QilinAnalysis_main_jar</output-path>
+    <root id="archive" name="QilinAnalysis.main.jar">
+      <element id="module-output" name="QilinAnalysis.main" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/org.smali/dexlib2/2.5.2/8b664182af455b0757a7f59a42020fa5608c7d0e/dexlib2-2.5.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/ca.mcgill.sable/jasmin/3.0.3/bc29f7032c7ee8314d339e54ca809e351f88883a/jasmin-3.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.21.7/96cfc7147192f1de72c3d7d06972155ffb7d180c/protobuf-java-3.21.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/txw2/3.0.0/1d2da507fbae72a98730c5dc19ec41e67f2cccd/txw2-3.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/de.upb.cs.swt/axml/2.1.3/f0dff8ec1179fb893cdd7f8c52b21e047f5f3ed6/axml-2.1.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.7/c0655519f24d92af2202cb681cd7c1569df6ead6/asm-util-9.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/ba035118bc8bac37d7eff77700720999acd9986d/j2objc-annotations-1.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/3.0.0/cd48ab07b2d6143a78a3f10732289930ac6b71e9/jaxb-runtime-3.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.3/deef7fc81f00bd5e6205bb097be1040b4094f007/slf4j-api-2.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libss/Qilin-0.9.5-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.7/e86dda4696d3c185fcc95d8d311904e7ce38a53f/asm-commons-9.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/com.sun.istack/istack-commons-runtime/4.0.0/2183d068e1199522b39c25ab6bb75adb5c10e6f4/istack-commons-runtime-4.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.9/8a432c1d6825781e21a02db2e2c33c5fde2833b9/gson-2.8.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/31.1-android/9222c47cc3ae890f07f7c961bbb3cb69050fe4aa/guava-31.1-android.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.11.0/c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69/error_prone_annotations-2.11.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.12.0/d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5/checker-qual-3.12.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/ca.mcgill.sable/polyglot/2006/f0e528051faa260d83f53d58275954d973231ce7/polyglot-2006.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/com.sun.activation/jakarta.activation/2.0.0/f4e7519148dee347c7666f336210deedb8aca09d/jakarta.activation-2.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.7/3f2bd4ba11c4162733c13cc90ca7c7ea09967102/commons-io-2.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.7/e4a258b7eb96107106c0599f0061cfc1832fe07a/asm-analysis-9.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-core/3.0.0/d3e976f31e1a233cac7a9d29ece92ab65c9a5d34/jaxb-core-3.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.7/73d7b3086e14beb604ced229c302feff6449723/asm-9.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java-util/3.21.2/c9eec82f0afa7c0021982d30cb65f126feb17997/protobuf-java-util-3.21.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/ca.mcgill.sable/java_cup/0.9.2/f36b758580fb9d472bfd5965aa9ac807fa66d242/java_cup-0.9.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/org.json/json/20231013/e22e0c040fe16f04ffdb85d851d77b07fc05ea52/json-20231013.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/org.functionaljava/functionaljava/4.2/f26bdd90a8d6b6faeb38ab2ba4c39580c1eb989f/functionaljava-4.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/xmlpull/xmlpull/1.1.3.4d_b4_min/6dcdbef481ff8fbac336a47048048b2b31855015/xmlpull-1.1.3.4d_b4_min.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/de.upb.cs.swt/heros/1.2.3/e90d207add1cad2157a68679b587f7770d309867/heros-1.2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/org.soot-oss/soot/4.5.0/3f1aaa7c783448bae18d57729b7edbc90a79d196/soot-4.5.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/3.0.0/9275db6e21287df61690989254a0b46d8d31e99a/jakarta.xml.bind-api-3.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.7/e446a17b175bfb733b87c5c2560ccb4e57d69f1a/asm-tree-9.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../modsum/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/2.1.1/48b9bda22b091b1f48b13af03fe36db3be6e1ae3/jakarta.annotation-api-2.1.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
