@@ -25,7 +25,8 @@ public class AnalysisEntrypoint {
             "-se",
             "-clinit=APP",
             "-mh",
-            "-lcs"
+            "-lcs",
+            "-pta=1c"
     };
 
     public static Map<String, Map<String, List<String>>> analysisData = new HashMap<>();

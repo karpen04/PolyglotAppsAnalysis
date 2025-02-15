@@ -95,7 +95,7 @@ public class Main {
 
                 processBuilder.inheritIO();
                 Process process = processBuilder.start();
-                boolean finished = process.waitFor(60, TimeUnit.SECONDS);
+                boolean finished = process.waitFor(6000, TimeUnit.SECONDS);
                 if (!finished) {
                     System.err.println("Destroying process...");
                     process.destroy();
