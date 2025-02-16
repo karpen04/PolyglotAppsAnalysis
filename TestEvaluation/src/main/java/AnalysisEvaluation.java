@@ -14,6 +14,8 @@ public class AnalysisEvaluation {
 
     private List<String> analysisLog;
 
+    private List<String> satNames;
+
     public AnalysisEvaluation(String... satNames) {
 
         analysisLog = new ArrayList<>();
@@ -135,10 +137,10 @@ public class AnalysisEvaluation {
         switch (jsons.indexOf(json)) {
 
             case 0:
-                result = "Qilin";
+                result = "Tai-E";
                 break;
             case 1:
-                result = "Tai-E";
+                result = "Qilin";
                 break;
             case 2:
                 result = "WALA";
