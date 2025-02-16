@@ -21,6 +21,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class InterLangComAnalysis extends ProgramAnalysis<Set<Stmt>> {
 
@@ -62,16 +63,24 @@ public class InterLangComAnalysis extends ProgramAnalysis<Set<Stmt>> {
 
                 for (Var var : result.getVars()) {
                     if (stmt.toString().contains(var.getName()) &&
-                            var.getType().getName().contains("polyglot.Value")) {
+                            var.getType().getName().contains("polyglot.Value")
+                    && var.getInvokes().stream().anyMatch(el -> el.toString().contains(className))) {
+
                         if(!analysisData.get(className).get(method.getName()).containsKey(stmt.toString())) {
                             analysisData.get(className).get(method.getName()).put(stmt.toString(), new ArrayList<>());
                         }
                         analysisData.get(className).get(method.getName()).get(stmt.toString()).add(var.toString());
+                        icfg.getInEdgesOf(stmt).forEach(inEdge ->
+                                analysisData.get(className).get(method.getName()).get(stmt.toString()).add("In edge: " + inEdge));
+                        icfg.getOutEdgesOf(stmt).forEach(outEdge ->
+                                analysisData.get(className).get(method.getName()).get(stmt.toString()).add("Out edge: " + outEdge));
+
                         ptaVars.put(stmt, var);
                     }
                 }
 
                 for (Obj obj : result.getObjects()) {
+
                     if (stmt.toString().contains(obj.getAllocation().toString().split("=")[0])
                             && obj.getType().getName().contains("polyglot.Value")) {
                         if(!analysisData.get(className).get(method.getName()).containsKey(stmt.toString())) {
