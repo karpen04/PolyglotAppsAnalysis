@@ -130,11 +130,17 @@ public class Statistics {
 
         try (FileWriter writer = new FileWriter(filePath)) {
             writer.append("Test Case,");
-            for(String satName : satNames) {
-                writer.append(satName);
-                if(satNames.indexOf(satName) == satNames.size() - 1)
-                    writer.append(System.lineSeparator());
-                else writer.append(",");
+            for (Map.Entry<String, Map<String, Double>> classEntry : coveragePerClass.entrySet()) {
+                int counter = 0;
+                for (Map.Entry<String, Double> satEntry : classEntry.getValue().entrySet()) {
+                        writer.append(satEntry.getKey());
+                        counter++;
+                        if (classEntry.getValue().size() == counter)
+                            writer.append(System.lineSeparator());
+                        else writer.append(",");
+
+                }
+                break;
             }
             for (Map.Entry<String, Map<String, Double>> classEntry : coveragePerClass.entrySet()) {
                 writer.append(classEntry.getKey()).append(",");
